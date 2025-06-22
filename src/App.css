@@ -1,0 +1,103 @@
+
+.text-stroke {
+  color: transparent;
+  -webkit-text-stroke: 1px rgb(255, 255, 255);
+  /* 支援 Chrome / Safari */
+  text-stroke: 1px rgb(255, 255, 255);
+  /* 實驗性語法 */
+}
+
+.fontEN{
+    font-family:system-ui,apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+    Helvetica Neue, Arial, Noto Sans, Liberation Sans,
+    Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+
+
+.timeline {
+  width: 1px;
+  height: 80px;
+  background-color: #fff;
+  display: flex;
+  justify-content: start;
+  flex-direction: column;
+}
+
+.progressline {
+  width: 3px;
+  border-radius: 50px;
+  background-color: #fff;
+  align-self: center;
+  animation: progress 5.5s linear infinite;
+  animation-delay: .74s;
+}
+
+.animate-bounceIn {
+  animation: bounceIn  1s ease-in-out forwards;
+}
+
+.navBlur{
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3);  /* 自定義陰影 */
+  background: rgba(255, 255, 255, 8);       /* 可選：毛玻璃背景 */
+  color: white;
+}
+
+.text-primary , .border-primary {
+    color: #293c64;
+}
+
+.bg-footer {
+    background-color: #111213;
+}
+.noise {
+  background: url(./assets/background/noise.7db2b31.gif);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1500;
+  pointer-events: none;
+  opacity: .03;
+}
+
+
+@keyframes zoomin {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.15);
+  }
+}
+
+@keyframes progress {
+  0% {
+    height: 0%;
+  }
+
+  80% {
+    height: 100%;
+  }
+  100%{
+    height: 0%;
+
+  }
+
+}
+
+@keyframes bounceIn  {
+  0% {
+    transform:scale(0);
+  }
+
+  80% {
+    transform:scale(1.1);
+  }
+  100%{
+    transform:scale(1);
+  }
+
+}
