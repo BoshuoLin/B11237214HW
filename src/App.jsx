@@ -190,7 +190,7 @@ function App() {
               </div>
               <div className="z-20 relative flex gap-2.5">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100064097737418&locale=zh_TW" target='_blank'
                   className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"
@@ -200,8 +200,7 @@ function App() {
 
                 </a>
                 <a
-                  href="#"
-                  className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
+                  href="#info" className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"
                   }}
@@ -210,7 +209,7 @@ function App() {
 
                 </a>
                 <a
-                  href="#"
+                  href="https://www.unews.com.tw/Newschool/Department/21/3774" target='_blank'
                   className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"
@@ -324,7 +323,7 @@ function App() {
           <div className="h-full flex flex-col justify-center w-full items-center" ref={textRef}>
             <div className="w-2/5 text-center relative z-10 ">
               <h5 className='fontEN font-extrabold leading-4 text-xl text-cyan-600'>-　About Us　-</h5>
-          
+
               <SplitText
                 text='跨域整合設計學士學位學程'
                 className="text-4xl leading-10 font-bold text-primary my-5"
@@ -349,14 +348,14 @@ function App() {
                   <br /><li className='inline-block relative before:absolute  before:border-b-6 before:w-full before:bottom-2 before:opacity-20 before:border-b-cyan-500 before:rounded-2xl'>改變社會對技職教育的觀點</li>
                 </ul>
                 為三大目標，多面向調整我國技職教育，回歸務實致用方向 <br /> 並呼應產業結構調整及經濟發展，培育國家所需技術人才。</h1>
-              <a href="#" className='hover:scale-90  duration-200 rounded-3xl text-md xl px-5 py-3 my-4 inline-block items-center  bg-cyan-400 text-white shadow-2xl' >
+              <a href="https://iid.yuntech.edu.tw/about/introduction" className='hover:scale-90  duration-200 rounded-3xl text-md xl px-5 py-3 my-4 inline-block items-center  bg-cyan-400 text-white shadow-2xl' >
                 學程簡介
               </a> </div>
           </div>
         </div>
       </section>
 
-      <section className='bg-stone-50  pt-20 pb-10 relative flex justify-center'>
+      <section className='bg-stone-50  pt-20 pb-10 relative flex justify-center' id='forNew'>
         <div className="container text-center">
           <h5 className='fontEN font-extrabold leading-4 text-xl text-cyan-600'>-　Welcome to Campus　-</h5>
           <h1 className='text-3xl leading-10 my-5'>新鮮人專區</h1>
@@ -365,7 +364,7 @@ function App() {
           <div className=" w-5/6 mx-auto">
             <div className="forNews grid  grid-cols-2   md:grid-cols-3 xl:grid-cols-6 justify-items-center gap-6 mt-8">
 
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/freshman/entrance-exam' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineFileText />
@@ -375,7 +374,7 @@ function App() {
                 </div>
               </a>
 
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/freshman/course-features' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineRead />
@@ -385,7 +384,7 @@ function App() {
                 </div>
               </a>
 
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/freshman/teaching-innovation-and-entrepreneurship' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineBulb />
@@ -395,7 +394,7 @@ function App() {
                 </div>
               </a>
 
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/freshman/internship' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineIdcard />
@@ -405,7 +404,7 @@ function App() {
                 </div>
               </a>
 
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/freshman/admission-guide' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineContacts />
@@ -414,7 +413,7 @@ function App() {
                   <p className='mt-8 text-lg'>招生指引</p>
                 </div>
               </a>
-              <a href='#' className="items-center  w-full  flex flex-col justify-center">
+              <a href='https://iid.yuntech.edu.tw/node/945' target='_blank' className="items-center  w-full  flex flex-col justify-center">
                 <div className="bg-white py-8 w-full shadow-xl shadow-sky-200  rounded-2xl  relative  hover:scale-95 hover:translate-y-2 hover:shadow-none duration-300">
                   <div className=" inline-block p-5 aspect-square text-5xl bg-gradient-to-br from-cyan-100 via-sky-100 to-white shadow-2xl shadow-cyan-100 rounded-full  font-semibold  items-center justify-center text-cyan-500 ">
                     <AiOutlineTeam />
@@ -561,11 +560,12 @@ function App() {
             <div className="w-full lg:w-1/2 flex flex-col justify-center">
               <ul className=' rounded-2xl text-md flex justify-around bg-transparent  text-white  border-white'>
                 <li><a href="#" className="font-bold border-b-1 inline-block pb-1 duration-200 " >首頁</a></li>
-                <li><a href="#" className="hover:font-bold duration-200 " >最新消息</a></li>
-                <li><a href="#" className="hover:font-bold duration-200 " >學程介紹</a></li>
-                <li><a href="#" className="hover:font-bold duration-200 " >課程介紹</a></li>
-                <li><a href="#" className="hover:font-bold duration-200 " >下載專區</a></li>
-                <li><a href="#" className="hover:font-bold duration-200 " >活動/獲獎成果</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/news" className="hover:font-bold duration-200 " >最新消息</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/about/introduction" className="hover:font-bold duration-200 " >學程介紹</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/node/7" className="hover:font-bold duration-200 " >課程介紹</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/freshman/internship" className="hover:font-bold duration-200 " >實習廠商</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/document" className="hover:font-bold duration-200 " >下載專區</a></li>
+                <li><a href="https://iid.yuntech.edu.tw/activity" className="hover:font-bold duration-200 " >活動/獲獎成果</a></li>
               </ul>
             </div>
           </div>
@@ -584,7 +584,7 @@ function App() {
               <span className="text-white text-md fontEN ">Fallow us</span>
               <div className="w-full lg:w-1/2 flex justify-start items-center gap-3">
                 <a
-                  href="#"
+                  href="https://www.facebook.com/profile.php?id=100064097737418&locale=zh_TW" target='_blank'
                   className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"
@@ -594,7 +594,7 @@ function App() {
 
                 </a>
                 <a
-                  href="#"
+                  href="#info"
                   className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"
@@ -604,7 +604,7 @@ function App() {
 
                 </a>
                 <a
-                  href="#"
+                  href="https://www.unews.com.tw/Newschool/Department/21/3774" target='_blank'
                   className=" hover:opacity-60 duration-300 my-2 text-xl w-10 h-10 rounded-3xl font-semibold flex items-center justify-center text-white backdrop-blur-sm shadow-[0_8px_30px_rgba(0,0,0,0.3)] border border-white/20"
                   style={{
                     background: "rgba(255, 255, 255, 0.4)"

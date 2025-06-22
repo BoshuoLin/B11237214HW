@@ -49,14 +49,15 @@ function Navbar() {
         <div className="flex items-center">
           <ul ref={textRef} className=' rounded-2xl text-md flex gap-7 bg-transparent  text-white  border-white'>
             <li><a href="#" className="font-bold border-b-1 inline-block pb-1 duration-200 " >首頁</a></li>
-            <li><a href="#" className="hover:font-bold duration-200 " >最新消息</a></li>
-            <li><a href="#" className="hover:font-bold duration-200 " >學程介紹</a></li>
-            <li><a href="#" className="hover:font-bold duration-200 " >課程介紹</a></li>
-            <li><a href="#" className="hover:font-bold duration-200 " >下載專區</a></li>
-            <li><a href="#" className="hover:font-bold duration-200 " >活動/獲獎成果</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/news" className="hover:font-bold duration-200 " >最新消息</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/about/introduction" className="hover:font-bold duration-200 " >學程介紹</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/node/7" className="hover:font-bold duration-200 " >課程介紹</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/freshman/internship" className="hover:font-bold duration-200 " >實習廠商</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/document" className="hover:font-bold duration-200 " >下載專區</a></li>
+            <li><a href="https://iid.yuntech.edu.tw/activity" className="hover:font-bold duration-200 " >活動/獲獎成果</a></li>
             <li></li>
           </ul>
-        <a href="#" className='hover:scale-90  duration-200 rounded-3xl text-md xl px-5 py-2.5 my-5 inline-block items-center bg-cyan-500 text-white shadow-2xl' >
+        <a href="#forNew" className='hover:scale-90  duration-200 rounded-3xl text-md xl px-5 py-2.5 my-5 inline-block items-center bg-cyan-500 text-white shadow-2xl' >
                 新鮮人專區
               </a>
 
